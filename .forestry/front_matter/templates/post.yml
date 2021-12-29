@@ -38,5 +38,10 @@ fields:
   type: text
   hidden: true
   default: post
+- name: test-incloud
+  type: include
+  config: {}
+  template: post
+  label: test-incloud
 pages:
 - _posts/test/intest/你好.md
